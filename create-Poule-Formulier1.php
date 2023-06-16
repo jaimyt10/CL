@@ -16,8 +16,6 @@ require_once "databaseConn.php";
 
 <h1>create Poule</h1>
 <form action="create-Poule-Formulier2.php" method="post">
-    <label for="PouleID">PouleID:</label>
-    <input type="text" id = "PouleID" name="PouleID"><br/>
     <label for="PouleNaam">PouleNaam:</label>
     <input type="text" id = "PouleNaam" name="PouleNaam"><br/>
 

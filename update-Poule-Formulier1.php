@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php require_once "navbar.php" ?>
-<form class="form" action="updatePouleFormulier2.php" method="post">
+<form class="form" action="update-Poule-Formulier2.php" method="post">
 <label for="PouleID">pouleid</label>
 <input type="text" name="PouleID" id="PouleID">
 <input type="submit">

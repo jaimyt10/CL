@@ -11,11 +11,10 @@
 <?php
 require "Poule.php";
 
-$PouleID=$_POST["PouleID"];
 $PouleNaam=$_POST["PouleNaam"];
 
 
-$poule = new poule($PouleID, $PouleNaam);
+$poule = new poule( $PouleNaam);
 $poule->Create();
 echo "Het volgende object is gemaakt: <br/>";
 

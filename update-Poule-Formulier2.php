@@ -36,7 +36,7 @@
         $pouleen->execute(["PouleID" => $PouleID]);
     
         // poulegegevens in een nieuw formulier laten zien
-        echo " <form class='form' action='updatePouleFormulier3.php' method='post'>";
+        echo " <form class='form' action='update-Poule-Formulier3.php' method='post'>";
         foreach ($pouleen as $poule) {
             // PouleID mag niet gewijzigd worden
             echo "PouleID: <input type='text' ";

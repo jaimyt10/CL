@@ -31,9 +31,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         echo "<tr>";
 
-        echo "<td>" . "ID: " . $poule->PouleID .   "<br>" . "</td>";
+        echo "<td>" . "ID: " . $result["PouleID"] .   "<br>" . "</td>";
 
-        echo "<td>" . "Leverancier: " . $poule->PouleNaam . "</td>" . "<br>";
+        echo "<td>" . "Poule Naam: " . $result["PouleNaam"] . "</td>" . "<br>";
         echo "</tr>";
         echo "</table>";
 
